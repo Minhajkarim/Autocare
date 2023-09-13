@@ -1,0 +1,30 @@
+#root {
+  overflow-x: hidden;
+}
+
+.loader {
+  width: 100vw;
+  height: 100vh;
+  display: flex !important;
+  justify-content: center !important;
+  margin: 0px !important;
+  text-align: center !important;
+  max-width: none !important;
+  align-items: center !important;
+  position: fixed;
+  background-color: rgb(29, 26, 26);
+  z-index: 1000000001;
+}
+.logo-text-loader span {
+  display: inline-block;
+  font-size: 30px;
+  color: #eba243;
+}
+
+.loader-text {
+  padding-top: 10px;
+}
+
+.logo-l {
+  width: 200px;
+}
